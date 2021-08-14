@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
 import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
+import Time from "./components/Time";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
       <Fragment>
         <Router>
           <BackToTop />
+          <Time />
           <Navbar />
           <Switch>
             <Route path="/" exact>

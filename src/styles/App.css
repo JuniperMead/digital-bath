@@ -1,6 +1,5 @@
 * {
   font-family: monospace;
-  background-color: #f2f2f2;
   color: #000000;
   scrollbar-width: none;
 }
@@ -76,6 +75,13 @@ a:hover {
     right: 2vw;
     font-size: 1vw;
   }
+
+  .timeDisplay {
+    position: fixed;
+    bottom: 2vw;
+    left: 2vw;
+    font-size: 1vw;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1365px) {
@@ -113,8 +119,15 @@ a:hover {
   .backToTop {
     position: fixed;
     bottom: 2vw;
-    right: 2vw;
-    font-size: 2.5vw;
+    right: 5vw;
+    font-size: 2vw;
+  }
+
+  .timeDisplay {
+    position: fixed;
+    bottom: 2vw;
+    left: 5vw;
+    font-size: 2vw;
   }
 }
 
@@ -142,7 +155,14 @@ a:hover {
   .backToTop {
     position: fixed;
     bottom: 5vw;
-    right: 2vw;
+    right: 5vw;
+    font-size: 4vw;
+  }
+
+  .timeDisplay {
+    position: fixed;
+    bottom: 5vw;
+    left: 5vw;
     font-size: 4vw;
   }
 }

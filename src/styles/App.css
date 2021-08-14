@@ -1,0 +1,148 @@
+* {
+  font-family: monospace;
+  background-color: #f2f2f2;
+  color: #000000;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f2f2f2 !important;
+  scrollbar-width: none !important;
+}
+
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.container,
+.container-fluid,
+.row,
+.col {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (min-width: 1366px) {
+  .footer {
+    width: 100vw;
+    min-height: 5vh;
+    padding-bottom: 2vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .digitalBath {
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-align: right;
+  }
+
+  .year {
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-align: left;
+  }
+
+  .footerDot {
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-align: center;
+  }
+
+  .comingSoon {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .backToTop {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+  .footer {
+    width: 100%;
+    min-height: 5vh;
+    padding-bottom: 2vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .digitalBath {
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-align: right;
+  }
+
+  .year {
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-align: left;
+  }
+
+  .footerDot {
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .comingSoon {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .backToTop {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 100%;
+    min-height: 5vh;
+    margin-bottom: 5vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .digitalBath,
+  .year{
+    margin-top: 5vw !important;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  .comingSoon {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .backToTop {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    font-size: 4vw;
+  }
+}

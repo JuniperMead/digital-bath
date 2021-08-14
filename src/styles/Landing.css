@@ -1,0 +1,139 @@
+@media screen and (min-width: 1366px) {
+    .sectionProfile {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        min-height: 50vh;
+    }
+
+    .sectionSkills {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5vh;
+        min-height: 50vh;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .sectionContact {
+        display: flex;
+        flex-direction: column;
+        padding: 10vh;
+        min-height: 30vw;
+        justify-content: center;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .name {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 2.5vw;
+        text-align: center;
+        color: #808080;
+    }
+
+    .location {
+        margin-top: 2vw;
+        font-size: 2vw;
+        text-align: center;
+        color: #808080;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    .sectionProfile {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        min-height: 50vh;
+    }
+
+    .sectionSkills {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5vw;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .sectionContact {
+        display: flex;
+        flex-direction: column;
+        padding: 10vh;
+        min-height: 30vw;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .name {
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+        text-align: center;
+        color: #808080;
+    }
+
+    .location {
+        margin-top: 2vw;
+        font-size: 2.5vw;
+        text-align: center;
+        color: #808080;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sectionProfile {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+        min-height: 40vh;
+    }
+
+    .sectionSkills {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4vw;
+        min-height: 30vh;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .sectionContact {
+        display: flex;
+        flex-direction: column;
+        padding: 10vh;
+        min-height: 30vw;
+        justify-content: center;
+        text-align: center;
+        font-size: 4vw;
+    }
+    
+    .name {
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+        text-align: center;
+        color: #808080;
+    }
+
+    .location {
+        margin-top: 2vw;
+        font-size: 4vw;
+        text-align: center;
+        color: #808080;
+    }
+}

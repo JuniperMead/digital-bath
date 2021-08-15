@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -11,12 +11,15 @@ interface IState {}
 class NotFound extends React.Component<IProps, IState> {
   render() {
     return (
-      <Fragment>
+      <div style={{
+        minHeight: "100vh",
+        width: "100vw",
+      }}>
         <Container className="section404" fluid>
           <div className="comingSoon">404</div>
           <Link to="/" className="returnButton">Home</Link>
         </Container>
-      </Fragment>
+      </div>
     );
   }
 }

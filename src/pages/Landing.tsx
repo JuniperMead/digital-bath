@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/Landing.css";
 import constants from "../utils/constants";
@@ -79,7 +79,10 @@ class Landing extends React.Component<IProps, IState> {
 
   render() {
     return (
-      <Fragment>
+      <div style={{
+        minHeight: "100vh",
+        width: "100vw",
+      }}>
         <Container className="sectionProfile" fluid>
           <Row>
             <Col xs={1} md={3}/>
@@ -157,7 +160,7 @@ class Landing extends React.Component<IProps, IState> {
           <a className="contactLink" href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf">résumé</a>
           <a className="contactLink" href="mailto:jin_hoe@outlook.com">contact</a>
         </Container>
-      </Fragment>
+      </div>
     );
   }
 }

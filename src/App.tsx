@@ -107,8 +107,8 @@ class App extends React.Component<any, IState> {
               <NotFound />
             </Route>
           </Switch>
-        </Router>
         <Footer />
+        </Router>
       </Fragment>
     );
   }

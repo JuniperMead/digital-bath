@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -11,12 +11,15 @@ interface IState {}
 class Tools extends React.Component<IProps, IState> {
   render() {
     return (
-      <Fragment>
+      <div style={{
+        minHeight: "100vh",
+        width: "100vw",
+      }}>
         <Container className="sectionTools" fluid>
           <div className="comingSoon">Coming Soon</div>
           <Link to="/" className="returnButton">return</Link>
         </Container>
-      </Fragment>
+      </div>
     );
   }
 }

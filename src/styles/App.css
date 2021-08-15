@@ -28,6 +28,11 @@ a:hover,
   text-decoration: underline !important;
 }
 
+.backToTop {
+  border-width: 0;
+  background-color: transparent;
+}
+
 .container,
 .container-fluid,
 .row,

@@ -1,0 +1,43 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+}
+
+.lightsButton {
+    position: fixed;
+    border-radius: 100;
+    background-color: transparent;
+    border-width: 0;
+    color: #1D1D1D;
+}
+
+@media screen and (min-width: 1366px) {   
+    .lightsButton {
+        top: 3vw;
+        right: 2vw;
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    .lightsButton {
+        top: 6vw;
+        right: 5vw;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lightsButton {
+        top: 15vw;
+        right: 5vw;
+        font-size: 3.5vw;
+    }
+}

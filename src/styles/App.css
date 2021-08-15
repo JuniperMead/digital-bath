@@ -24,7 +24,8 @@ a,
 }
 
 a:hover,
-.backToTop:hover {
+.backToTop:hover,
+.lightsButton:hover {
   text-decoration: underline !important;
 }
 

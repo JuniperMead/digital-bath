@@ -13,6 +13,7 @@ import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
 import NotFound from "./pages/NotFound";
+import LightToggle from "./components/LightToggle";
 
 interface IState {
   isDesktop: boolean;
@@ -91,6 +92,7 @@ class App extends React.Component<any, IState> {
               trailingSpeed={6}
             />
           )}
+          <LightToggle />
           <BackToTop />
           <Time />
           <Navbar />

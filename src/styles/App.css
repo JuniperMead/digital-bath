@@ -1,5 +1,5 @@
 * {
-  font-family: monospace;
+  font-family:  'Anonymous Pro', monospace;;
   color: #000000;
   scrollbar-width: none;
 }
@@ -135,7 +135,7 @@ a:hover {
   .footer {
     width: 100%;
     min-height: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
     align-items: center;
     justify-content: center;
   }
@@ -156,13 +156,13 @@ a:hover {
     position: fixed;
     bottom: 5vw;
     right: 5vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 
   .timeDisplay {
     position: fixed;
     bottom: 5vw;
     left: 5vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 }

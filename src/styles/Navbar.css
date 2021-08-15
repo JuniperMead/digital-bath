@@ -7,8 +7,9 @@
         width: 100vw;
         text-align: center;
         padding: 1vw;
+        background-color:#E2E2E2;
     }
-
+    
     .navbarItem {
         margin-left: 5vw;
         margin-right: 5vw;
@@ -23,12 +24,13 @@
         align-items: center;
         width: 100vw;
         text-align: center;
+        background-color:#E2E2E2;
     }
 
     .navbarItem {
         margin-left: 5vw;
         margin-right: 5vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }
 
@@ -38,9 +40,10 @@
         top: 0;
         width: 100vw;
         text-align: center;
+        background-color:#E2E2E2;
     }
 
     .navbarItem {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 }

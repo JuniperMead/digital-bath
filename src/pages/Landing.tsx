@@ -78,8 +78,8 @@ class Landing extends React.Component<IProps, IState> {
         </Container>
         <Container className="sectionSkills" fluid>
           <Row>
-            <Col xs={2} sm={3} />
-            <Col xs={4} sm={3}>
+            <Col xs={2} sm={3} xl={4}/>
+            <Col xs={4} sm={3} xl={2}>
               <Row>
                 <Col>TypeScript</Col>
               </Row>
@@ -105,7 +105,7 @@ class Landing extends React.Component<IProps, IState> {
                 <Col>Java</Col>
               </Row>
             </Col>
-            <Col xs={4} sm={3}>
+            <Col xs={4} sm={3} xl={2}>
               <Row>
                 <Col>Node.js</Col>
               </Row>
@@ -131,7 +131,7 @@ class Landing extends React.Component<IProps, IState> {
                 <Col>Kotlin</Col>
               </Row>
             </Col>
-            <Col xs={2} sm={3} />
+            <Col xs={2} sm={3}  xl={4}/>
           </Row>
         </Container>
         <Container className="sectionContact" fluid>

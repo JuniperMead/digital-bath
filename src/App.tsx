@@ -10,6 +10,7 @@ import Landing from "./pages/Landing";
 import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
+import NotFound from "./pages/NotFound";
 
 class App extends React.Component {
   render() {
@@ -25,6 +26,9 @@ class App extends React.Component {
             </Route>
             <Route path="/Tools" exact>
               <Tools />
+            </Route>
+            <Route >
+              <NotFound />
             </Route>
           </Switch>
         </Router>

@@ -154,7 +154,7 @@ class Landing extends React.Component<IProps, IState> {
           </Row>
         </Container>
         <Container className="sectionContact" fluid>
-          <a className="contactLink" href="/resume.pdf">résumé</a>
+          <a className="contactLink" href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf">résumé</a>
           <a className="contactLink" href="mailto:jin_hoe@outlook.com">contact</a>
         </Container>
       </Fragment>

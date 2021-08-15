@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "../styles/Tools.css";
@@ -9,10 +9,6 @@ interface IProps {}
 interface IState {}
 
 class Tools extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
-    super(props);
-  }
-
   render() {
     return (
       <Fragment>

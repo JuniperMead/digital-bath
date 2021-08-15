@@ -1,149 +1,170 @@
+.name:hover {
+  text-decoration: none !important;
+}
+
+.nameButton {
+  border-width: 0 !important;
+  background-color: transparent;
+}
+
 @media screen and (min-width: 1366px) {
-    .sectionProfile {
-        display: flex;
-        flex-direction: column;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
-        min-height: 50vh;
-    }
+  .sectionProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    min-height: 50vh;
+  }
 
-    .sectionSkills {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5vh;
-        min-height: 50vh;
-        text-align: center;
-        font-size: 2vw;
-        color: #303030;
-    }
+  .sectionSkills {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    min-height: 50vh;
+    text-align: center;
+    font-size: 2vw;
+    color: #303030;
+  }
 
-    .sectionContact {
-        display: flex;
-        flex-direction: column;
-        padding: 10vh;
-        min-height: 30vw;
-        justify-content: center;
-        text-align: center;
-        font-size: 1vw;
-        color: #303030;
-    }
+  .sectionContact {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    min-height: 30vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
+    color: #303030;
+  }
 
-    .name {
-        font-size: 4.5vw;
-        text-align: center;
-        color: #303030;
-    }
+  .name {
+    font-size: 4.5vw;
+    text-align: center;
+    color: #303030;
+  }
 
-    .subtitle {
-        font-size: 2vw;
-        text-align: center;
-        color: #808080;
-    }
+  .subtitle {
+    font-size: 2vw;
+    text-align: center;
+    color: #808080;
+  }
 
-    .location {
-        margin-top: 2vw;
-        font-size: 2vw;
-        text-align: center;
-        color: #808080;
-    }
+  .location {
+    margin-top: 2vw;
+    font-size: 2vw;
+    text-align: center;
+    color: #808080;
+  }
+
+  .contactLink {
+    margin-bottom: 3vw;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1365px) {
-    .sectionProfile {
-        display: flex;
-        flex-direction: column;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
-        min-height: 40vw;
-    }
+  .sectionProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    min-height: 40vw;
+  }
 
-    .sectionSkills {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5vh;
-        min-height: 50vw;
-        text-align: center;
-        font-size: 3vw;
-        color: #303030;
-    }
+  .sectionSkills {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    min-height: 50vw;
+    text-align: center;
+    font-size: 3vw;
+    color: #303030;
+  }
 
-    .sectionContact {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5vh;
-        min-height: 30vw;
-        justify-content: center;
-        text-align: center;
-        font-size: 2vw;
-        color: #303030;
-    }
+  .sectionContact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    min-height: 30vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    color: #303030;
+  }
 
-    .name {
-        font-size: 5vw;
-        text-align: center;
-        color: #303030;
-    }
+  .name {
+    font-size: 5vw;
+    text-align: center;
+    color: #303030;
+  }
 
-    .subtitle {
-        font-size: 3vw;
-        text-align: center;
-        color: #808080;
-    }
+  .subtitle {
+    font-size: 3vw;
+    text-align: center;
+    color: #808080;
+  }
 
-    .location {
-        margin-top: 4vw;
-        font-size: 3vw;
-        text-align: center;
-        color: #808080;
-    }
+  .location {
+    margin-top: 4vw;
+    font-size: 3vw;
+    text-align: center;
+    color: #808080;
+  }
+
+  .contactLink {
+    margin-bottom: 4vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .sectionProfile {
-        display: flex;
-        flex-direction: column;
-        padding-top: 20vh;
-        padding-bottom: 10vh;
-        min-height: 40vh;
-    }
+  .sectionProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    min-height: 40vh;
+  }
 
-    .sectionSkills {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 4vw;
-        min-height: 30vh;
-        text-align: center;
-        font-size: 3.5vw;
-        color: #303030;
-    }
+  .sectionSkills {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4vw;
+    min-height: 30vh;
+    text-align: center;
+    font-size: 3.5vw;
+    color: #303030;
+  }
 
-    .sectionContact {
-        display: flex;
-        flex-direction: column;
-        padding: 10vh;
-        min-height: 30vw;
-        justify-content: center;
-        text-align: center;
-        font-size: 3.5vw;
-        color: #303030;
-    }
-    
-    .name {
-        font-size: 7vw;
-        text-align: center;
-        color: #303030;
-    }
+  .sectionContact {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    min-height: 30vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5vw;
+    color: #303030;
+  }
 
-    .subtitle {
-        font-size: 4vw;
-        text-align: center;
-        color: #808080;
-    }
+  .name {
+    font-size: 7vw;
+    text-align: center;
+    color: #303030;
+  }
 
-    .location {
-        margin-top: 2vw;
-        font-size: 4vw;
-        text-align: center;
-        color: #808080;
-    }
+  .subtitle {
+    font-size: 4vw;
+    text-align: center;
+    color: #808080;
+  }
+
+  .location {
+    margin-top: 2vw;
+    font-size: 4vw;
+    text-align: center;
+    color: #808080;
+  }
+
+  .contactLink {
+    margin-bottom: 5vw;
+  }
 }

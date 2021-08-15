@@ -1,17 +1,13 @@
 import React, { Fragment } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
 interface IProps {}
 
-interface IState {
-}
+interface IState {}
 
 class Navbar extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
-    super(props);
-  }
 
   render() {
     return (

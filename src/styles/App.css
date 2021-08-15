@@ -17,14 +17,15 @@ body {
   scrollbar-width: none !important;
 }
 
-a {
+a,
+.backToTop {
   color: #000000 !important;
   text-decoration: none !important;
 }
 
-a:hover {
+a:hover,
+.backToTop:hover {
   text-decoration: underline !important;
-  cursor: pointer !important;
 }
 
 .container,

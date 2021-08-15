@@ -8,6 +8,7 @@ interface IProps {}
 interface IState {
   isDesktop: boolean;
   isTablet: boolean;
+  name: string;
 }
 
 class Landing extends React.Component<IProps, IState> {
@@ -17,8 +18,16 @@ class Landing extends React.Component<IProps, IState> {
     this.state = {
       isDesktop: false,
       isTablet: false,
+      name: "Jin Hoe Lim",
     };
   }
+
+  toggleName = () => {
+    console.log("TEST");
+    this.setState({
+      name: this.state.name === "Jin Hoe Lim" ? "林 仁 和" : "Jin Hoe Lim",
+    });
+  };
 
   componentDidMount() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
@@ -72,13 +81,23 @@ class Landing extends React.Component<IProps, IState> {
     return (
       <Fragment>
         <Container className="sectionProfile" fluid>
-          <div className="name">Jin Hoe Lim</div>
-          <div className="subtitle">Software Engineer | BCompSci</div>
-          <div className="location">KUL → MEL</div>
+          <Row>
+            <Col xs={1} md={3}/>
+            <Col xs={10} md={6}>
+              <div className="name">
+                <button className="nameButton" onClick={() => this.toggleName()}>
+                  {this.state.name}
+                </button>
+              </div>
+              <div className="subtitle">Software Engineer | BCompSci</div>
+              <div className="location">KUL → MEL</div>
+            </Col>
+            <Col xs={1}  md={6}/>
+          </Row>
         </Container>
         <Container className="sectionSkills" fluid>
           <Row>
-            <Col xs={2} sm={3} xl={4}/>
+            <Col xs={2} sm={3} xl={4} />
             <Col xs={4} sm={3} xl={2}>
               <Row>
                 <Col>TypeScript</Col>
@@ -131,11 +150,12 @@ class Landing extends React.Component<IProps, IState> {
                 <Col>Kotlin</Col>
               </Row>
             </Col>
-            <Col xs={2} sm={3}  xl={4}/>
+            <Col xs={2} sm={3} xl={4} />
           </Row>
         </Container>
         <Container className="sectionContact" fluid>
-          <a href="mailto:jin_hoe@outlook.com">contact</a>
+          <a className="contactLink" href="/resume.pdf">résumé</a>
+          <a className="contactLink" href="mailto:jin_hoe@outlook.com">contact</a>
         </Container>
       </Fragment>
     );

@@ -44,6 +44,11 @@ a:hover,
   padding-right: 0 !important;
 }
 
+.timeDisplay,
+.backToTop {
+  color: #1D1D1D;
+}
+
 @media screen and (min-width: 1366px) {
   .footer {
     width: 100vw;

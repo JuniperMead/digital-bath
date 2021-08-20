@@ -1,6 +1,6 @@
 * {
   font-family:  'Anonymous Pro', monospace;;
-  color: #000000;
+  color: #1D1D1D;
   scrollbar-width: none;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #000000 !important;
+  color: #1D1D1D !important;
   text-decoration: none !important;
 }
 

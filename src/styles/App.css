@@ -17,8 +17,7 @@ body {
   scrollbar-width: none !important;
 }
 
-a,
-.backToTop {
+a {
   color: #000000 !important;
   text-decoration: none !important;
 }
@@ -47,6 +46,7 @@ a:hover,
 .timeDisplay,
 .backToTop {
   color: #1D1D1D;
+  text-decoration: none !important;
 }
 
 @media screen and (min-width: 1366px) {

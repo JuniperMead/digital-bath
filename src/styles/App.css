@@ -70,6 +70,12 @@ a:hover,
     text-align: left;
   }
 
+  .abn {
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-align: center;
+  }
+
   .footerDot {
     margin-top: 1vw;
     font-size: 1vw;
@@ -117,6 +123,12 @@ a:hover,
     text-align: left;
   }
 
+  .abn {
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-align: center;
+  }
+
   .footerDot {
     margin-top: 1vw;
     font-size: 2vw;
@@ -154,6 +166,12 @@ a:hover,
 
   .digitalBath,
   .year{
+    margin-top: 5vw !important;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  .abn {
     margin-top: 5vw !important;
     font-size: 3.5vw;
     text-align: center;

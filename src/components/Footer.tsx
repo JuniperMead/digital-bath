@@ -82,20 +82,21 @@ class Footer extends React.Component<IProps, IState> {
                 }}
               />
               {this.state.isDesktop || this.state.isTablet ? (
-                <Row noGutters>
-                  <Col xs={5} md={5} lg={5} className="digitalBath">
-                    <a href="https://open.spotify.com/track/2jSJm3Gv6GLxduWLenmjKS?si=447e79ceffbb487f">
-                      digital bath
-                    </a>
-                  </Col>
-                  <Col xs={2} md={2} lg={2} className="footerDot">
-                    {" "}
-                    ·{" "}
-                  </Col>
-                  <Col xs={5} md={5} lg={5} className="year">
-                    twenty twenty-one
-                  </Col>
-                </Row>
+                <Fragment>
+                  <Row noGutters>
+                    <Col xs={5} md={5} lg={5} className="digitalBath">
+                      <a href="https://open.spotify.com/track/2jSJm3Gv6GLxduWLenmjKS?si=447e79ceffbb487f">
+                        digital bath
+                      </a>
+                    </Col>
+                    <Col xs={2} md={2} lg={2} className="abn">
+                      2 0 2 1
+                    </Col>
+                    <Col xs={5} md={5} lg={5} className="year">
+                      ABN 89 117 877 898
+                    </Col>
+                  </Row>
+                </Fragment>
               ) : (
                 <Fragment>
                   <Row noGutters>
@@ -107,6 +108,9 @@ class Footer extends React.Component<IProps, IState> {
                   </Row>
                   <Row noGutters>
                     <Col className="year">twenty twenty-one</Col>
+                  </Row>
+                  <Row noGutters>
+                    <Col className="abn">ABN 89 117 877 898</Col>
                   </Row>
                 </Fragment>
               )}

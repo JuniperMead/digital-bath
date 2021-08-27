@@ -22,6 +22,15 @@ class LightToggle extends React.Component<IProps, IState> {
     });
   };
 
+  componentDidMount() {
+    const currentTime = new Date().getHours();
+
+    this.setState({
+      dark: currentTime < 6 || currentTime > 18
+    });
+  }
+  
+
   render() {
     return (
       <Fragment>

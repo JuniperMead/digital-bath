@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 
 import "./styles/App.css";
@@ -97,9 +97,17 @@ class App extends React.Component<any, IState> {
           <Time />
           <Navbar />
           <Switch>
-            <Route path="/" exact>
-              <Landing />
-            </Route>
+							<Route
+								exact
+								path="/"
+							>
+								<Redirect to="/Home" />
+							</Route>
+							<Route
+								exact
+								path="/Home"
+								component={Landing}
+							/>
             <Route path="/Tools" exact>
               <Tools />
             </Route>

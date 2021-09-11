@@ -8,7 +8,7 @@ function LineParticles() {
       params={{
         particles: {
           number: {
-            value: 50,
+            value: 60,
             density: {
               enable: true,
             },
@@ -27,7 +27,7 @@ function LineParticles() {
           move: {
             random: true,
             speed: 0.5,
-            out_mode: "out",
+            out_mode: "bounce",
           },
         },
       }}

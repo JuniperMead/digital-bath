@@ -1,0 +1,9 @@
+.particles {
+  pointer-events: none !important;
+  top: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  z-index: 0;
+}

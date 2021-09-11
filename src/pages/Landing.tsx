@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/Landing.css";
 import constants from "../utils/constants";
@@ -79,23 +79,28 @@ class Landing extends React.Component<IProps, IState> {
 
   render() {
     return (
-      <div style={{
-        minHeight: "100vh",
-        width: "100vw",
-      }}>
+      <div
+        style={{
+          minHeight: "100vh",
+          width: "100vw",
+        }}
+      >
         <Container className="sectionProfile" fluid>
           <Row>
-            <Col xs={1} md={3}/>
+            <Col xs={1} md={3} />
             <Col xs={10} md={6}>
               <div className="name">
-                <button className="nameButton" onClick={() => this.toggleName()}>
+                <button
+                  className="nameButton"
+                  onClick={() => this.toggleName()}
+                >
                   {this.state.name}
                 </button>
               </div>
               <div className="subtitle">Software Engineer | BCompSci</div>
               <div className="location">KUL → MEL</div>
             </Col>
-            <Col xs={1}  md={6}/>
+            <Col xs={1} md={6} />
           </Row>
         </Container>
         <Container className="sectionSkills" fluid>
@@ -157,8 +162,15 @@ class Landing extends React.Component<IProps, IState> {
           </Row>
         </Container>
         <Container className="sectionContact" fluid>
-          <a className="contactLink" href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf">résumé</a>
-          <a className="contactLink" href="mailto:jin_hoe@outlook.com">contact</a>
+          <a
+            className="contactLink"
+            href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf"
+          >
+            résumé
+          </a>
+          <a className="contactLink" href="mailto:jin_hoe@outlook.com">
+            contact
+          </a>
         </Container>
       </div>
     );

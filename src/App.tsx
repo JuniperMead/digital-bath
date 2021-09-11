@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 
 import "./styles/App.css";
@@ -14,6 +19,7 @@ import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
 import NotFound from "./pages/NotFound";
 import LightToggle from "./components/LightToggle";
+import LineParticles from "./components/Particles";
 
 interface IState {
   isDesktop: boolean;
@@ -92,22 +98,15 @@ class App extends React.Component<any, IState> {
               trailingSpeed={6}
             />
           )}
+          <Navbar />
           <LightToggle />
           <BackToTop />
           <Time />
-          <Navbar />
           <Switch>
-							<Route
-								exact
-								path="/"
-							>
-								<Redirect to="/Home" />
-							</Route>
-							<Route
-								exact
-								path="/Home"
-								component={Landing}
-							/>
+            <Route exact path="/">
+              <Redirect to="/Home" />
+            </Route>
+            <Route exact path="/Home" component={Landing} />
             <Route path="/Tools" exact>
               <Tools />
             </Route>
@@ -115,7 +114,8 @@ class App extends React.Component<any, IState> {
               <NotFound />
             </Route>
           </Switch>
-        <Footer />
+          <Footer />
+          <LineParticles />
         </Router>
       </Fragment>
     );

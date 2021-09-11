@@ -1,6 +1,6 @@
 * {
-  font-family:  'Anonymous Pro', monospace;;
-  color: #1D1D1D;
+  font-family: "Anonymous Pro", monospace;
+  color: #1d1d1d;
   scrollbar-width: none;
 }
 
@@ -18,8 +18,17 @@ body {
 }
 
 a {
-  color: #1D1D1D !important;
+  color: #1d1d1d !important;
   text-decoration: none !important;
+}
+
+a,
+button,
+.navbar,
+.footer,
+.subFooter,
+.digitalBath {
+  z-index: 99 !important;
 }
 
 a:hover,
@@ -45,7 +54,7 @@ a:hover,
 
 .timeDisplay,
 .backToTop {
-  color: #1D1D1D;
+  color: #1d1d1d;
   text-decoration: none !important;
 }
 
@@ -165,7 +174,7 @@ a:hover,
   }
 
   .digitalBath,
-  .year{
+  .year {
     margin-top: 5vw !important;
     font-size: 3.5vw;
     text-align: center;

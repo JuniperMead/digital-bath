@@ -23,7 +23,6 @@ class Landing extends React.Component<IProps, IState> {
   }
 
   toggleName = () => {
-    console.log("TEST");
     this.setState({
       name: this.state.name === "Jin Hoe Lim" ? "林 仁 和" : "Jin Hoe Lim",
     });

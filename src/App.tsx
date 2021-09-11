@@ -89,14 +89,16 @@ class App extends React.Component<any, IState> {
       <Fragment>
         <Router>
           {this.state.isDesktop && (
-            <AnimatedCursor
-              innerSize={"0.5vw"}
-              outerSize={"1.5vw"}
-              color="0, 0, 0"
-              outerAlpha={0.2}
-              outerScale={1.5}
-              trailingSpeed={6}
-            />
+            <div className="customCursor">
+              <AnimatedCursor
+                innerSize={"0.5vw"}
+                outerSize={"1.5vw"}
+                color="0, 0, 0"
+                outerAlpha={0.2}
+                outerScale={1.5}
+                trailingSpeed={6}
+              />
+            </div>
           )}
           <Navbar />
           <LightToggle />

@@ -57,7 +57,9 @@
   }
 
   .contactLink {
+    align-self: center;
     margin-bottom: 3vw;
+    width: 50vw;
   }
 }
 
@@ -111,7 +113,9 @@
   }
 
   .contactLink {
+    align-self: center;
     margin-bottom: 4vw;
+    width: 50vw;
   }
 }
 
@@ -165,6 +169,8 @@
   }
 
   .contactLink {
+    align-self: center;
     margin-bottom: 5vw;
+    width: 50vw;
   }
 }

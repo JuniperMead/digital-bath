@@ -106,56 +106,38 @@ class Landing extends React.Component<IProps, IState> {
           <Row>
             <Col xs={2} sm={3} xl={4} />
             <Col xs={4} sm={3} xl={2}>
-              <Row>
-                <Col>TypeScript</Col>
-              </Row>
-              <Row>
-                <Col>React</Col>
-              </Row>
-              <Row>
-                <Col>Fastify</Col>
-              </Row>
-              <Row>
-                <Col>AWS</Col>
-              </Row>
-              <Row>
-                <Col>Serverless</Col>
-              </Row>
-              <Row>
-                <Col>MongoDB</Col>
-              </Row>
-              <Row>
-                <Col>IoT</Col>
-              </Row>
-              <Row>
-                <Col>Java</Col>
-              </Row>
+              TypeScript
+              <br />
+              React
+              <br />
+              Fastify
+              <br />
+              AWS
+              <br />
+              Serverless
+              <br />
+              MongoDB
+              <br />
+              IoT
+              <br />
+              Java
             </Col>
             <Col xs={4} sm={3} xl={2}>
-              <Row>
-                <Col>Node.js</Col>
-              </Row>
-              <Row>
-                <Col>React Native</Col>
-              </Row>
-              <Row>
-                <Col>Express</Col>
-              </Row>
-              <Row>
-                <Col>Azure</Col>
-              </Row>
-              <Row>
-                <Col>Docker</Col>
-              </Row>
-              <Row>
-                <Col>MySQL</Col>
-              </Row>
-              <Row>
-                <Col>Swagger</Col>
-              </Row>
-              <Row>
-                <Col>Kotlin</Col>
-              </Row>
+              Node.js
+              <br />
+              React Native
+              <br />
+              Express
+              <br />
+              Azure
+              <br />
+              Docker
+              <br />
+              MySQL
+              <br />
+              Bootstrap
+              <br />
+              Kotlin
             </Col>
             <Col xs={2} sm={3} xl={4} />
           </Row>

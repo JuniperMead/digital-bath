@@ -104,12 +104,10 @@ class Footer extends React.Component<IProps, IState> {
                       digital bath
                     </a>
                   </Col>
-                </Row>
-                <Row noGutters>
-                  <Col className="year">twenty twenty-one</Col>
-                </Row>
-                <Row noGutters>
                   <Col className="abn">ABN 89 117 877 898</Col>
+                </Row>
+                <Row noGutters>
+                  <Col className="year">2 0 2 1</Col>
                 </Row>
               </Fragment>
             )}

@@ -84,7 +84,7 @@ class Footer extends React.Component<IProps, IState> {
               <Fragment>
                 <Row className="subFooter" noGutters>
                   <Col xs={5} md={5} lg={5} className="digitalBath">
-                    <a href="https://open.spotify.com/track/2jSJm3Gv6GLxduWLenmjKS?si=447e79ceffbb487f">
+                    <a href="https://music.apple.com/album/white-pony/1099848709">
                       digital bath
                     </a>
                   </Col>
@@ -100,7 +100,7 @@ class Footer extends React.Component<IProps, IState> {
               <Fragment>
                 <Row className="subFooter" noGutters>
                   <Col className="digitalBath">
-                    <a href="https://open.spotify.com/track/2jSJm3Gv6GLxduWLenmjKS?si=447e79ceffbb487f">
+                    <a href="https://music.apple.com/album/white-pony/1099848709">
                       digital bath
                     </a>
                   </Col>

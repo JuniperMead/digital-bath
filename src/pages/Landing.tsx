@@ -118,7 +118,7 @@ class Landing extends React.Component<IProps, IState> {
               <br />
               MongoDB
               <br />
-              IoT
+              Realm
               <br />
               Java
             </Col>
@@ -135,7 +135,7 @@ class Landing extends React.Component<IProps, IState> {
               <br />
               MySQL
               <br />
-              Bootstrap
+              IoT
               <br />
               Kotlin
             </Col>

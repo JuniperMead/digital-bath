@@ -97,7 +97,7 @@ class Landing extends React.Component<IProps, IState> {
                 </button>
               </div>
               <div className="subtitle">Software Engineer | BCompSci</div>
-              <div className="location">KUL → MEL</div>
+              <div className="location">KUL→ MEL</div>
             </Col>
             <Col xs={1} md={6} />
           </Row>
@@ -142,15 +142,65 @@ class Landing extends React.Component<IProps, IState> {
             <Col xs={2} sm={3} xl={4} />
           </Row>
         </Container>
+        <Container className="sectionSkills" fluid>
+          <Row>
+            <Col xs={1} sm={2} xl={3} />
+            <Col xs={10} sm={8} xl={6} className="skills">
+              <br />
+              <br />
+              <Row>
+                <Col className="subtitle">
+                  Wallace Corporation
+                </Col>
+              </Row>
+              <Row>
+                <Col className="skills">
+                  Full Stack Software Engineer
+                  <br />
+                  Dec 2020 - Present
+                </Col>
+              </Row>
+              <br />
+              <br />
+              <Row>
+                <Col className="subtitle">
+                  Swinburne University
+                </Col>
+              </Row>
+              <Row>
+                <Col className="skills">
+                  Technical Project Assistant
+                  <br />
+                  Mar 2020 - Dec 2020
+                </Col>
+              </Row>
+              <br />
+              <br />
+              <Row>
+                <Col className="subtitle">
+                  Swinburne University
+                </Col>
+              </Row>
+              <Row>
+                <Col className="skills">
+                  Gamification Technology Officer
+                  <br />
+                  Mar 2019 - Mar 2020
+                </Col>
+              </Row>
+            </Col>
+            <Col xs={1} sm={2} xl={3} />
+          </Row>
+        </Container>
         <Container className="sectionContact" fluid>
           <a
             className="contactLink"
             href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf"
           >
-            RÉSUMÉ
+            R É S U M É
           </a>
           <a className="contactLink" href="mailto:jin_hoe@outlook.com">
-            CONTACT
+            C O N T A C T
           </a>
         </Container>
       </div>

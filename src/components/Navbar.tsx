@@ -13,26 +13,25 @@ class Navbar extends React.Component<IProps, IState> {
     return (
       <Fragment>
         <Row className="navbar" noGutters>
-          <Col xs={0} sm={2} />
-          <Col xs={4} sm={3}>
+          <Col xs={6}>
             <a
               href="https://www.linkedin.com/in/jin-hoe-lim/"
               className="navbarItem"
             >
-              LINKEDIN
+              L I N K E D I N
             </a>
           </Col>
-          <Col xs={4} sm={2}>
+          {/* <Col xs={4} sm={2}>
             <Link to="/Tools" className="navbarItem">
               TOOLS
             </Link>
-          </Col>
-          <Col xs={4} sm={3}>
+          </Col> */}
+          <Col xs={6}>
             <a href="https://github.com/junipermead" className="navbarItem">
-              GITHUB
+              G I T H U B
             </a>
           </Col>
-          <Col xs={0} sm={2} />
+          <Col xs={0} />
         </Row>
       </Fragment>
     );

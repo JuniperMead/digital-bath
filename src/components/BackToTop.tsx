@@ -1,4 +1,5 @@
 import React from "react";
+import smoothscroll from 'smoothscroll-polyfill';
 
 interface IProps {}
 
@@ -6,6 +7,7 @@ interface IState {}
 
 class BackToTop extends React.Component<IProps, IState> {
   render() {
+    smoothscroll.polyfill();
     return (
       <button
         onClick={() => {
@@ -13,7 +15,7 @@ class BackToTop extends React.Component<IProps, IState> {
         }}
         className="backToTop"
       >
-        TOP
+        T O P
       </button>
     );
   }

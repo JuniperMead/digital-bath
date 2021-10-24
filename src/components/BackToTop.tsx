@@ -13,7 +13,7 @@ class BackToTop extends React.Component<IProps, IState> {
         }}
         className="backToTop"
       >
-        top
+        TOP
       </button>
     );
   }

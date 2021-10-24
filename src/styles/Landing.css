@@ -1,3 +1,9 @@
+.name,
+.subtitle,
+.skills {
+  font-family: 'Anonymous Pro';
+}
+
 .name:hover {
   text-decoration: none !important;
 }

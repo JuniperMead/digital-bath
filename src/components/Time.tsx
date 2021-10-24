@@ -24,7 +24,7 @@ class BackToTop extends React.Component<IProps, IState> {
   componentDidMount() {
        this.update = setInterval(() => {
           this.setState({ time: new Date() });
-      }, 1000);
+      }, 100);
   }
 
   componentWillUnmount() {
@@ -33,7 +33,7 @@ class BackToTop extends React.Component<IProps, IState> {
 
   render() {
     return (
-      <Moment format="LTS" className="timeDisplay" tz="Australia/Melbourne">
+      <Moment format="HH : mm : ss . S" className="timeDisplay" tz="Australia/Melbourne">
           {this.state.time}
       </Moment>
     );

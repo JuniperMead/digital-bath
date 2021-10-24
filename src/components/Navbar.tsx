@@ -19,17 +19,17 @@ class Navbar extends React.Component<IProps, IState> {
               href="https://www.linkedin.com/in/jin-hoe-lim/"
               className="navbarItem"
             >
-              LinkedIn
+              LINKEDIN
             </a>
           </Col>
           <Col xs={4} sm={2}>
             <Link to="/Tools" className="navbarItem">
-              Tools
+              TOOLS
             </Link>
           </Col>
           <Col xs={4} sm={3}>
             <a href="https://github.com/junipermead" className="navbarItem">
-              GitHub
+              GITHUB
             </a>
           </Col>
           <Col xs={0} sm={2} />

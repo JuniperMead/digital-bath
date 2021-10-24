@@ -105,7 +105,7 @@ class Landing extends React.Component<IProps, IState> {
         <Container className="sectionSkills" fluid>
           <Row>
             <Col xs={2} sm={3} xl={4} />
-            <Col xs={4} sm={3} xl={2}>
+            <Col xs={4} sm={3} xl={2} className="skills">
               TypeScript
               <br />
               React
@@ -122,7 +122,7 @@ class Landing extends React.Component<IProps, IState> {
               <br />
               Java
             </Col>
-            <Col xs={4} sm={3} xl={2}>
+            <Col xs={4} sm={3} xl={2} className="skills">
               Node.js
               <br />
               React Native
@@ -147,10 +147,10 @@ class Landing extends React.Component<IProps, IState> {
             className="contactLink"
             href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf"
           >
-            résumé
+            RÉSUMÉ
           </a>
           <a className="contactLink" href="mailto:jin_hoe@outlook.com">
-            contact
+            CONTACT
           </a>
         </Container>
       </div>

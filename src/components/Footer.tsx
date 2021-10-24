@@ -85,7 +85,7 @@ class Footer extends React.Component<IProps, IState> {
                 <Row className="subFooter" noGutters>
                   <Col xs={5} md={5} lg={5} className="digitalBath">
                     <a href="https://music.apple.com/album/white-pony/1099848709">
-                      digital bath
+                      DIGITAL BATH
                     </a>
                   </Col>
                   <Col xs={2} md={2} lg={2} className="abn">
@@ -101,7 +101,7 @@ class Footer extends React.Component<IProps, IState> {
                 <Row className="subFooter" noGutters>
                   <Col className="digitalBath">
                     <a href="https://music.apple.com/album/white-pony/1099848709">
-                      digital bath
+                      DIGITAL BATH
                     </a>
                   </Col>
                   <Col className="abn">ABN 89 117 877 898</Col>

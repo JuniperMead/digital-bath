@@ -44,7 +44,7 @@ class LightToggle extends React.Component<IProps, IState> {
           className="lightsButton"
           onClick={() => this.toggleLights(this.state.dark)}
         >
-          lights
+          LIGHTS
         </button>
       </Fragment>
     );

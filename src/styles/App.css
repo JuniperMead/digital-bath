@@ -36,7 +36,7 @@ button,
 a:hover,
 .backToTop:hover,
 .lightsButton:hover {
-  text-decoration: underline !important;
+  text-decoration: line-through !important;
 }
 
 .backToTop {

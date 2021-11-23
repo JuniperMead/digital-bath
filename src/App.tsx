@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 import Landing from "./pages/Landing";
-import Tools from "./pages/Tools";
+//import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
 import NotFound from "./pages/NotFound";
@@ -109,9 +109,9 @@ class App extends React.Component<any, IState> {
               <Redirect to="/Home" />
             </Route>
             <Route exact path="/Home" component={Landing} />
-            <Route path="/Tools" exact>
+            {/* <Route path="/Tools" exact>
               <Tools />
-            </Route>
+            </Route> */}
             <Route>
               <NotFound />
             </Route>

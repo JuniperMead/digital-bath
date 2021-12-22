@@ -199,7 +199,7 @@ class Landing extends React.Component<IProps, IState> {
           >
             R É S U M É
           </a>
-          <a className="contactLink" href="mailto:jin_hoe@outlook.com">
+          <a className="contactLink" href="mailto:contact@digital-bath.net">
             C O N T A C T
           </a>
         </Container>

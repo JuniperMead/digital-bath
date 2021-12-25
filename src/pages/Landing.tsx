@@ -155,7 +155,9 @@ class Landing extends React.Component<IProps, IState> {
               </Row>
               <Row>
                 <Col className="skills">
-                  Full Stack Software Engineer
+                  Full Stack Software Engineer &amp;
+                  <br />
+                  Software Team Leader
                   <br />
                   Dec 2020 - Present
                 </Col>

@@ -16,8 +16,8 @@ class NotFound extends React.Component<IProps, IState> {
         width: "100vw",
       }}>
         <Container className="section404" fluid>
-          <div className="comingSoon">404</div>
-          <Link to="/" className="returnButton">Home</Link>
+          <div className="comingSoon">#404</div>
+          <Link to="/" className="returnButton">H O M E</Link>
         </Container>
       </div>
     );

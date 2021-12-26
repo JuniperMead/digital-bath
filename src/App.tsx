@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 import Landing from "./pages/Landing";
+import Experience from "./pages/Experience";
 //import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
@@ -105,10 +106,8 @@ class App extends React.Component<any, IState> {
           <BackToTop />
           <Time />
           <Switch>
-            <Route exact path="/">
-              <Redirect to="/Home" />
-            </Route>
-            <Route exact path="/Home" component={Landing} />
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/experience" component={Experience} />
             {/* <Route path="/Tools" exact>
               <Tools />
             </Route> */}

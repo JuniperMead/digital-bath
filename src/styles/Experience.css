@@ -1,0 +1,156 @@
+.title,
+.experienceSubtitle,
+.experienceText,
+.skills {
+  font-family: 'Anonymous Pro';
+}
+
+@media screen and (min-width: 1366px) {
+  .sectionExperienceProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 10;
+    min-height: 40vh;
+  }
+
+  .sectionExperience {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    min-height: 50vh;
+    text-align: left;
+    font-size: 2vw;
+    color: #303030;
+  }
+
+  .title {
+    font-size: 4.5vw;
+    text-align: left;
+    color: #303030;
+  }
+
+  .experienceSubtitle {
+    font-size: 2vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceText {
+    font-size: 1.75vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceLocation {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    text-align: left;
+    color: #303030;
+  }
+
+  .contactLink {
+    align-self: center;
+    margin-bottom: 3vw;
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+  .sectionExperienceProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 10;
+    min-height: 30vw;
+  }
+
+  .sectionExperience {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    min-height: 50vw;
+    text-align: left;
+    font-size: 3vw;
+    color: #303030;
+  }
+
+  .title {
+    font-size: 5vw;
+    text-align: left;
+    color: #303030;
+  }
+
+  .experienceSubtitle {
+    font-size: 3vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceText {
+    font-size: 2.5vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceLocation {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    font-size: 3vw;
+    text-align: left;
+    color: #303030;
+  }
+
+  .contactLink {
+    align-self: center;
+    margin-bottom: 4vw;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sectionExperienceProfile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    min-height: 30vh;
+  }
+
+  .sectionExperience {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4vw;
+    min-height: 30vh;
+    text-align: left;
+    font-size: 3.5vw;
+    color: #303030;
+  }
+
+  .title {
+    font-size: 7vw;
+    text-align: left;
+    color: #303030;
+  }
+
+  .experienceSubtitle {
+    font-size: 4vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceText {
+    font-size: 3vw;
+    text-align: left;
+    color: #808080;
+  }
+
+  .experienceLocation {
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    font-size: 4vw;
+    text-align: left;
+    color: #303030;
+  }
+}

@@ -94,6 +94,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceLocation">
                   &gt; E M P L O Y M E N T
+                  <br />[ 2019 - ]
                 </Col>
               </Row>
               <Row>
@@ -108,7 +109,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Full Stack Software Engineer &amp; Software Team Leader
                   <br />
-                  Dec 2020 - Present
+                  &gt; Dec 2020 - Present
                 </Col>
               </Row>
               <Row>
@@ -158,7 +159,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Technical Project Assistant
                   <br />
-                  Mar 2020 - Dec 2020
+                  &gt; Mar 2020 - Dec 2020
                 </Col>
               </Row>
               <Row>
@@ -206,7 +207,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Gamification Technology Officer
                   <br />
-                  Mar 2019 - Mar 2020
+                  &gt; Mar 2019 - Mar 2020
                 </Col>
               </Row>
               <Row>
@@ -260,7 +261,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Company Website
                   <br />
-                  Aug 2021 - Nov 2021
+                  &gt; Aug 2021 - Nov 2021
                   <br />
                   <br />
                 </Col>

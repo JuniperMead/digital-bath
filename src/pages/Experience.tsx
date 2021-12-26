@@ -109,7 +109,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Full Stack Software Engineer &amp; Software Team Leader
                   <br />
-                  &gt; Dec 2020 - Present
+                  &gt; 12/2020 - Present
                 </Col>
               </Row>
               <Row>
@@ -159,7 +159,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Technical Project Assistant
                   <br />
-                  &gt; Mar 2020 - Dec 2020
+                  &gt; 03/2020 - 12/2020
                 </Col>
               </Row>
               <Row>
@@ -207,13 +207,13 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Gamification Technology Officer
                   <br />
-                  &gt; Mar 2019 - Mar 2020
+                  &gt; 03/2019 - 03/2020
                 </Col>
               </Row>
               <Row>
                 <Col className="experienceText">
                   <br />
-                  I was hired as a Gamification Technology Officer to scope new
+                  I interned as a Gamification Technology Officer to scope new
                   projects as well as develop software for a specific tender won
                   by Swinburne Major Projects (now Swinburne Professional).
                   <br />

@@ -223,7 +223,7 @@ class Projects extends React.Component<IProps, IState> {
                   in Major Projects winning three tenders, and was involved in
                   interviewing and hiring a mid-level software engineer to lead
                   the development efforts for a V/Line rail worker training
-                  platform. The two of us developed 2 websites, native mobile
+                  platform. The 2 of us developed a web application, 2 native mobile
                   applications and a monolithic back-end to successfully deliver
                   the project ahead of schedule.
                   <br />

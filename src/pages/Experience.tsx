@@ -126,8 +126,8 @@ class Projects extends React.Component<IProps, IState> {
                   Auckland. As a key member of the company I advise on strategy
                   and product design. Duties usually performed by Product
                   Owners, SCRUM Masters, Project Managers, Recruiters and IT
-                  Engineers are covered by myself, whilst also working as a
-                  full-time software engineer across multiple projects.
+                  Engineers are covered by myself, whilst also working full-time
+                  as a software engineer across multiple projects.
                   <br />
                   <br />
                   Main Tech Stack:

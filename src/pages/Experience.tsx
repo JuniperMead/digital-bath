@@ -261,7 +261,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="skills">
                   Company Website
                   <br />
-                  &gt; Aug 2021 - Nov 2021
+                  &gt; 08/2021 - 11/2021
                   <br />
                   <br />
                 </Col>

@@ -100,7 +100,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   Wallace Corporation <br />
-                  <a href="https://www.wallacedesign.com.au">[ website ]</a>
+                  <a href="https://www.wallacedesign.com.au">[ v i e w ]</a>
                 </Col>
               </Row>
               <Row>
@@ -149,7 +149,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ website ]
+                    [ v i e w ]
                   </a>
                 </Col>
               </Row>
@@ -197,7 +197,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ website ]
+                    [ v i e w ]
                   </a>
                 </Col>
               </Row>
@@ -252,7 +252,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   PathDX <br />
-                  <a href="https://www.pathdx.com.au">[ website ]</a>
+                  <a href="https://www.pathdx.com.au">[ v i e w ]</a>
                 </Col>
               </Row>
               <Row>

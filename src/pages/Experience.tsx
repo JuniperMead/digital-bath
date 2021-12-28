@@ -101,7 +101,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Wallace Corporation <br />
                   <a href="https://www.wallacedesign.com.au">
-                    [ w e b s i t e ]
+                    [ website ]
                   </a>
                 </Col>
               </Row>
@@ -130,7 +130,7 @@ class Projects extends React.Component<IProps, IState> {
                   as a software engineer across multiple projects.
                   <br />
                   <br />
-                  Main Tech Stack:
+                  Primary Tech Stack:
                   <br />
                   &gt; TypeScript
                   <br />
@@ -151,7 +151,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ w e b s i t e ]
+                    [ website ]
                   </a>
                 </Col>
               </Row>
@@ -180,7 +180,7 @@ class Projects extends React.Component<IProps, IState> {
                   assigned to a team to develop e-learning modules.
                   <br />
                   <br />
-                  Main Tech Stack:
+                  Primary Tech Stack:
                   <br />
                   &gt; JavaScript
                   <br />
@@ -199,7 +199,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ w e b s i t e ]
+                    [ website ]
                   </a>
                 </Col>
               </Row>
@@ -233,7 +233,7 @@ class Projects extends React.Component<IProps, IState> {
                   Thales.
                   <br />
                   <br />
-                  Main Tech Stack:
+                  Primary Tech Stack:
                   <br />
                   &gt; JavaScript
                   <br />
@@ -254,7 +254,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   PathDX <br />
-                  <a href="https://www.pathdx.com.au">[ w e b s i t e ]</a>
+                  <a href="https://www.pathdx.com.au">[ website ]</a>
                 </Col>
               </Row>
               <Row>

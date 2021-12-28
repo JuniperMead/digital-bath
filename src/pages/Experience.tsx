@@ -100,9 +100,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   Wallace Corporation <br />
-                  <a href="https://www.wallacedesign.com.au">
-                    [ website ]
-                  </a>
+                  <a href="https://www.wallacedesign.com.au">[ website ]</a>
                 </Col>
               </Row>
               <Row>
@@ -223,9 +221,9 @@ class Projects extends React.Component<IProps, IState> {
                   in Major Projects winning three tenders, and was involved in
                   interviewing and hiring a mid-level software engineer to lead
                   the development efforts for a V/Line rail worker training
-                  platform. The 2 of us developed a web application, 2 native mobile
-                  applications and a monolithic back-end to successfully deliver
-                  the project ahead of schedule.
+                  platform. The 2 of us developed a web application, 2 native
+                  mobile applications and a monolithic back-end to successfully
+                  deliver the project ahead of schedule.
                   <br />
                   <br />
                   For a portion of my internship, I scoped and oversaw the
@@ -317,7 +315,7 @@ class Projects extends React.Component<IProps, IState> {
                   exponential growth in sales for PathDX
                   <br />
                   &gt; As of December 2021, PathDX generates over AUD 5,000,000
-                  revenue daily
+                  daily in revenue
                 </Col>
               </Row>
             </Col>

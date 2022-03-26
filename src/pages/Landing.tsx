@@ -123,7 +123,7 @@ class Landing extends React.Component<IProps, IState> {
               Java
             </Col>
             <Col xs={4} sm={3} xl={2} className="skills">
-              Node.js
+              Next.js
               <br />
               React Native
               <br />

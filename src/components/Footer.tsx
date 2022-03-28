@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
 import constants from "../utils/constants";
+import Marquee from "react-fast-marquee";
 
 interface IProps {}
 
@@ -72,6 +73,49 @@ class Footer extends React.Component<IProps, IState> {
       <Fragment>
         <Row className="footer" noGutters>
           <Col>
+            <hr
+              style={{
+                margin: 0,
+                background: "#000000",
+                height: "1px",
+                borderWidth: 0,
+              }}
+            />
+            <Row>
+              <Marquee>
+                <div
+                  style={{
+                    width: "100vw",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-around",
+                  }}
+                >
+                  <a className="digitalBath" href="https://www.digital-bath.net">
+                    DIGITAL-BATH.NET
+                  </a>
+                  <a className="digitalBath" href="https://www.digital-bath.au">
+                    DIGITAL-BATH.AU
+                  </a>
+                  <a className="digitalBath" href="https://www.digital-bath.com.au">
+                    DIGITAL-BATH.COM.AU
+                  </a>
+                  {this.state.isDesktop && (
+                    <Fragment>
+                      <a className="digitalBath" href="https://www.digital-bath.net">
+                        DIGITAL-BATH.NET
+                      </a>
+                      <a className="digitalBath" href="https://www.digital-bath.au">
+                        DIGITAL-BATH.AU
+                      </a>
+                      <a className="digitalBath" href="https://www.digital-bath.com.au">
+                        DIGITAL-BATH.COM.AU
+                      </a>
+                    </Fragment>
+                  )}
+                </div>
+              </Marquee>
+            </Row>
             <hr
               style={{
                 marginBottom: "2vw",

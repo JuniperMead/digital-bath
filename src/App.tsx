@@ -15,7 +15,6 @@ import Navbar from "./components/Navbar";
 
 import Landing from "./pages/Landing";
 import Experience from "./pages/Experience";
-//import Tools from "./pages/Tools";
 import BackToTop from "./components/BackToTop";
 import Time from "./components/Time";
 import NotFound from "./pages/NotFound";

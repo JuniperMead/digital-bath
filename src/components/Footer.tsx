@@ -73,7 +73,7 @@ class Footer extends React.Component<IProps, IState> {
       <Fragment>
         <Row className="footer" noGutters>
           <Col>
-            <hr
+            {/* <hr
               style={{
                 margin: 0,
                 background: "#000000",
@@ -115,7 +115,7 @@ class Footer extends React.Component<IProps, IState> {
                   )}
                 </div>
               </Marquee>
-            </Row>
+            </Row> */}
             <hr
               style={{
                 marginBottom: "2vw",

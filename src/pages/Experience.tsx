@@ -314,9 +314,6 @@ class Projects extends React.Component<IProps, IState> {
                   <br />
                   &gt; The booking &amp; enquiry systems directly resulted in
                   exponential growth in sales for PathDX
-                  <br />
-                  &gt; As of December 2021, PathDX generates over AUD 5,000,000
-                  daily in revenue
                 </Col>
               </Row>
             </Col>

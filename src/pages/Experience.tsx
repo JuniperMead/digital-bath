@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import SectionContact from "../components/SectionContact";
 import "../styles/Experience.css";
 import constants from "../utils/constants";
 
@@ -100,12 +101,12 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   Wallace Corporation <br />
-                  <a href="https://www.wallacedesign.com.au">[ v i e w ]</a>
+                  <a href="https://www.wallacedesign.com.au">[ l i nk ]</a>
                 </Col>
               </Row>
               <Row>
                 <Col className="skills">
-                  Full Stack Software Engineer &amp; Software Team Leader
+                  Full Stack Software Engineer &amp; Software Lead
                   <br />
                   &gt; 12/2020 - Present
                 </Col>
@@ -113,10 +114,10 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceText">
                   <br />
-                  I am currently employed as a Full Stack Software Engineer and
-                  Software Team Leader at Wallace Corporation. The position of
-                  Software Team Leader was assigned to me after I naturally
-                  assumed the role as the team grew.
+                  I am a Full Stack Software Engineer and Software Lead at
+                  Wallace Corporation. The position of Software Lead was
+                  assigned to me after I naturally assumed the role as the team
+                  grew.
                   <br />
                   <br />
                   I coordinate numerous software projects and teams concurrently
@@ -149,7 +150,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ v i e w ]
+                    [ l i nk ]
                   </a>
                 </Col>
               </Row>
@@ -197,7 +198,7 @@ class Projects extends React.Component<IProps, IState> {
                 <Col className="experienceSubtitle">
                   Swinburne University <br />
                   <a href="https://www.swinburne.edu.au/swinburne-professional/">
-                    [ v i e w ]
+                    [ l i nk ]
                   </a>
                 </Col>
               </Row>
@@ -252,7 +253,7 @@ class Projects extends React.Component<IProps, IState> {
               <Row>
                 <Col className="experienceSubtitle">
                   PathDX <br />
-                  <a href="https://www.pathdx.com.au">[ v i e w ]</a>
+                  <a href="https://www.pathdx.com.au">[ l i nk ]</a>
                 </Col>
               </Row>
               <Row>
@@ -322,17 +323,7 @@ class Projects extends React.Component<IProps, IState> {
             <Col xs={1} />
           </Row>
         </Container>
-        <Container className="sectionContact" fluid>
-          <a
-            className="contactLink"
-            href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf"
-          >
-            R É S U M É
-          </a>
-          <a className="contactLink" href="mailto:contact@digital-bath.net">
-            C O N T A C T
-          </a>
-        </Container>
+        <SectionContact />
       </div>
     );
   }

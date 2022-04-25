@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import SectionContact from "../components/SectionContact";
 import "../styles/Landing.css";
 import constants from "../utils/constants";
 
@@ -119,8 +120,6 @@ class Landing extends React.Component<IProps, IState> {
               MongoDB
               <br />
               Realm
-              <br />
-              Java
             </Col>
             <Col xs={4} sm={3} xl={2} className="skills">
               Next.js
@@ -136,23 +135,11 @@ class Landing extends React.Component<IProps, IState> {
               MySQL
               <br />
               IoT
-              <br />
-              Kotlin
             </Col>
             <Col xs={2} sm={3} xl={4} />
           </Row>
         </Container>
-        <Container className="sectionContact" fluid>
-          <a
-            className="contactLink"
-            href="https://digital-bath.s3.ap-southeast-2.amazonaws.com/resume.pdf"
-          >
-            R É S U M É
-          </a>
-          <a className="contactLink" href="mailto:contact@digital-bath.net">
-            C O N T A C T
-          </a>
-        </Container>
+        <SectionContact />
       </div>
     );
   }

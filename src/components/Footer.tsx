@@ -133,7 +133,7 @@ class Footer extends React.Component<IProps, IState> {
                     </a>
                   </Col>
                   <Col xs={2} md={2} lg={2} className="abn">
-                    2 0 2 2
+                  twenty twenty-two
                   </Col>
                   <Col xs={5} md={5} lg={5} className="year">
                     ABN 89 117 877 898
@@ -151,7 +151,7 @@ class Footer extends React.Component<IProps, IState> {
                   <Col className="abn">ABN 89 117 877 898</Col>
                 </Row>
                 <Row noGutters>
-                  <Col className="year">2 0 2 2</Col>
+                  <Col className="year">twenty twenty-two</Col>
                 </Row>
               </Fragment>
             )}

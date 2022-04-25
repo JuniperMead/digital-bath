@@ -1,8 +1,13 @@
 .title,
 .experienceSubtitle,
 .experienceText,
-.skills {
+.skills,
+.contactText {
   font-family: 'Anonymous Pro';
+}
+
+.experienceText {
+  padding-right: 2% !important;
 }
 
 @media screen and (min-width: 1366px) {
@@ -37,7 +42,7 @@
   }
 
   .experienceText {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     text-align: left;
     color: #808080;
   }
@@ -89,7 +94,7 @@
   }
 
   .experienceText {
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: left;
     color: #808080;
   }
@@ -141,7 +146,7 @@
   }
 
   .experienceText {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: left;
     color: #808080;
   }

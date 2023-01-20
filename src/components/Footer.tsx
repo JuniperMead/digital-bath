@@ -133,7 +133,7 @@ class Footer extends React.Component<IProps, IState> {
                     </a>
                   </Col>
                   <Col xs={2} md={2} lg={2} className="abn">
-                  2021 -
+                  2021 - 2023
                   </Col>
                   <Col xs={5} md={5} lg={5} className="year">
                     ABN 89 117 877 898
